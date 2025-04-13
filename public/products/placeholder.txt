@@ -1,0 +1,10 @@
+Place your product images in this folder with the following names:
+
+dog-food.jpg - For Breed Dry Dog Food
+camera.jpg - For CANON EOS DSLR Camera
+laptop.jpg - For ASUS FHD Gaming Laptop
+skincare.jpg - For Curology Product Set
+kids-car.jpg - For Kids Electric Car
+soccer-cleats.jpg - For Jr. Zoom Soccer Cleats
+gamepad.jpg - For GP11 Shooter USB Gamepad
+jacket.jpg - For Quilted Satin Jacket 

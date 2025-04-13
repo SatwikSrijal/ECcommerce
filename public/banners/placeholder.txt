@@ -1,0 +1,15 @@
+Instructions for Banner Images
+
+To replace the banner images, place your own images in this folder with the following names:
+- banner-1.jpg
+- banner-2.jpg
+- banner-3.jpg
+- banner-4.jpg
+- banner-5.jpg
+
+For optimal display, use images with the following specifications:
+- Recommended aspect ratio: 16:9 or similar landscape format
+- Minimum resolution: 1200 x 675 pixels
+- Optimal file size: Less than 300KB per image for good performance
+
+The images will automatically be displayed in the banner slideshow. 
