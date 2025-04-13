@@ -1,0 +1,147 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.left {
+  width: 100%;
+}
+
+.left img{
+  width:100%;
+  height:auto;
+  display:flexbox;
+}
+.image {
+  width: 100%;
+  height: auto;
+  object-fit: flex;
+}
+
+.right {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left:2.5rem;
+}
+
+.flexbetween{
+  flex:1;
+}
+
+.acc{
+  display:flex;
+  margin-top:10px;
+  justify-content: center;
+}
+
+.acc p{
+  margin-left:-3rem;
+} 
+.acc a{
+  margin-left:2rem;
+  font-weight: bold;
+  border-bottom:1px solid grey;
+}
+
+.heading {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.right img{
+  width:40px;
+  height:40px;
+  margin-top:-6px;
+  margin-bottom:-15px;
+  margin-right:5px;
+  display:inline-flex;
+}
+
+.right h2{
+  margin-bottom:0.6rem;
+}
+
+.right p{
+  margin-bottom:0.6rem;
+}
+.subText {
+  margin-bottom: 1.2rem;
+  color: #555;
+}
+
+/* .formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.input {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.button {
+  background-color: #1e1b4b;
+  color: white;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.googleButton {
+  margin-top: 0.5rem;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.registerLink {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.linkText {
+  color: #4F46E5;
+  text-decoration: underline;
+  cursor: pointer;
+} */
+
+/* Tablet and above */
+@media screen and (min-width: 768px) {
+  .container {
+    flex-direction: row;
+  }
+
+  .left,
+  .right {
+    flex: 1;
+  }
+
+  .left img{
+    margin-top:2rem;
+    height:auto;
+  }
+
+  .image {
+    height: 100vh;
+  }
+
+  .right {
+    padding-left: 12rem;
+    padding-bottom: 15rem;
+  }
+  
+  .heading {
+    font-size: 2rem;
+  }
+}

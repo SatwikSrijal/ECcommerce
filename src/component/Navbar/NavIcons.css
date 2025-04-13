@@ -1,0 +1,28 @@
+.nav-icons-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem; /* Approx 6 (tailwind units) */
+    position: relative;
+  }
+  
+  .icon {
+    cursor: pointer;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 3rem; /* Approx top-12 */
+    left: 0;
+    padding: 1rem;
+    border-radius: 0.375rem;
+    font-size: 0.875rem;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    z-index: 20;
+  }
+  
+  .dropdown-item {
+    margin-top: 0.5rem;
+    cursor: pointer;
+  }
+  
